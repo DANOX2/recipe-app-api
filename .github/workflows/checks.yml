@@ -4,7 +4,7 @@ name: Checks
 on: [push]
 
 jobs: 
-  test and Lint:
+  Test and Lint:
     name: ubuntu-24.04
     steps:
       - name: Login to Docker Hub
