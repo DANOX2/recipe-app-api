@@ -4,6 +4,6 @@ exclude =
     migrations, 
     __pycache__,
     manage.py,
-    settings.py
+    settings.py,
 
-max-line-lenght = 500
+max-line-lengtH = 500
