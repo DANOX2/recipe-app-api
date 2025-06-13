@@ -1,11 +1,11 @@
----
 name: Checks
 
 on: [push]
 
 jobs: 
-  Test and Lint:
-    name: ubuntu-24.04
+  test-and-lint:
+    runs-on: ubuntu-latest
+    name: Test and Lint
     steps:
       - name: Login to Docker Hub
         uses: docker/login-action@v3
