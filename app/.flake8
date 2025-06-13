@@ -6,4 +6,4 @@ exclude =
     manage.py,
     settings.py,
 
-max-line-lengtH = 500
+max-line-length = 500
